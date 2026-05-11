@@ -1,0 +1,15 @@
+test: small_case_n4_k3
+execution_time: 0s
+
+input:
+n=4, k=3, I=9
+r(t)=[8,7,5] for t=0..2
+c(t)=[1,2,3] for t=0..2
+s(t)=[0,6,4,2] for t=0..3
+
+f_1(0): 25
+decisions:
+decision_1: keep
+decision_2: sell
+decision_3: sell
+decision_4: sell

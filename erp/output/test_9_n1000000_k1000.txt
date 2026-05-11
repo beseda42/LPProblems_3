@@ -1,0 +1,11 @@
+test: test_9_n1000000_k1000
+execution_time: 1.0402966s
+
+input:
+n=1000000, k=1000, I=1234
+r(t)=123-0.1t+sin(t) for t=0..999
+c(t)=17+0.1t+cos(t) for t=0..999
+s(t)=567-0.5t+sin(2t) for t=1..1000
+note: values are rounded to int
+
+f_1(0): 89276234
